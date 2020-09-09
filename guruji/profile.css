@@ -1,0 +1,223 @@
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+body {
+  background: #F1F3FA;
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 40%;
+  height: 40%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+.dash
+   {
+    margin-top: 20px;
+   }
+     @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+  body{font-family: 'Poppins', sans-serif;
+       background: #fafafa}
+  p{font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+  }
+    a,
+    a:hover,
+    a:focus{
+      color: inherit;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    .navbar{
+      padding: 15px 10px;
+      background: #fff;
+      border: none;
+      border-radius: 0;
+      /*margin-bottom: 40px;*/
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .navbar-btn{
+      box-shadow: none;
+      outline: none!important;
+      border: none;
+    }
+
+    .line{
+      width: 100%;
+      height: 1px;
+      /*border-bottom: 1px dashed #ddd;*/
+    }
+
+    .wrapper {
+        display: flex;
+        width: 100%;
+        min-height: 700px;
+        align-items: stretch;
+    }
+    #sidebar {
+        min-width: 230px;
+        max-width: 230px;
+        background: #7386D5;
+        color: #fff;
+        transition: all 0.3s;
+    }
+    #sidebar.active{
+      margin-left: -230px;
+    }
+
+    #sidebar .sidebar-header{
+      padding: 14px;
+      background: #6d7fcc;
+    }
+   
+
+    #sidebar ul p{
+      padding: 10px;
+      font-size: 1.1em;
+      display: block;
+    }
+
+    #sidebar ul li a{
+      padding: 10px;
+      font-size: 1.1em;
+      display: block;
+    }
+    #sidebar ul li a:hover {
+        color: #7386D5;
+        background: #fff;
+    }
+
+    #sidebar ul li.active>a,
+    a[aria-expanded="true"] {
+        color: #fff;
+        background: #6d7fcc;
+    }
+    a[data-toggle="collapse"] {
+        position: relative;
+    }
+
+    #content {
+        width: 100%;
+        padding: 20px;
+        min-height: 100vh;
+        transition: all 0.3s;
+    }
+
+    @media(maz-width:768px){
+      #sidebar{margin-left: -230px;}
+      #sidebar.active{
+        margin-left: 0px;
+      }
+      #sidebarCollapse span{
+        display: none;
+
+     } 
+     .container-fluid .dash
+     {
+      margin-top: 20px;
+      background-color: blue;
+     }
